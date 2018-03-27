@@ -1,14 +1,31 @@
-# Binaries for programs and plugins
-*.exe
-*.dll
-*.so
-*.dylib
+# Created by https://www.gitignore.io/api/osx
 
-# Test binary, build with `go test -c`
-*.test
+### OSX ###
+*.DS_Store
+.AppleDouble
+.LSOverride
 
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
+# Icon must end with two \r
+Icon
 
-# Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
-.glide/
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+
+# End of https://www.gitignore.io/api/osx
